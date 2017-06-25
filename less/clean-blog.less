@@ -34,7 +34,8 @@ a {
   color: #ea8b55;
   &:hover,
   &:focus {
-    color: @theme-primary;
+    color: #ea8b55;
+    text-decoration: none;
   }
 }
 
@@ -423,6 +424,7 @@ li {
   background-size: 100% 100%;
   background-attachment: scroll;
   text-align: center;
+
   > .category-content {
     background-color: #397979;
     position: absolute;
@@ -431,14 +433,178 @@ li {
     text-shadow: 1px 1px 2px #5a5a5a;
     font-size: 20px;
     font-style: normal;
-    height: 104%;
+    height: 350px;
     text-align: left;
     p {
-      margin-left: 55px;
+      width: 440px;
+      margin-left: 85px;
+
       margin-top: 80px;
     }
+    ul {
+      position: relative;
+      bottom: -50px;
+      height: 35px;
+      li {
+        margin: 0 26px;
+        .icons {
+          width: 25px;
+          height: 35px;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+        }
+      }
+    }
+    .model-link {
+      text-align: center;
+      position: relative;
+      bottom: -60px;
+        }
   }
-
+}
+.category1 {
+  background-image: url(../img/OAIIEN.png);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+  > .category-content-1 {
+    background-color: #ea8b55;
+    position: absolute;
+    margin-top: -28px;
+    color: #000000;
+    text-shadow: 1px 1px 2px #5a5a5a;
+    font-size: 20px;
+    font-style: normal;
+    height: 350px;
+    text-align: right;
+    p {
+      position: relative;
+      margin-top: 80px;
+      left: -45%;
+    }
+    ul {
+      position: relative;
+      bottom: -110px;
+      height: 35px;
+      li{
+        margin: 0 26px;
+        .icons {
+          width: 25px;
+          height: 35px;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+        }}}
+    .model-link {
+      text-align: center;
+      position: relative;
+      bottom: -60px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  }
+}
+.category2 {
+  background-image: url(../img/OBDT.jpg);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+  > .category-content-2 {
+    background-color: #397979;
+    position: absolute;
+    margin-top: -28px;
+    color: #f7fffc;
+    text-shadow: 1px 1px 2px #5a5a5a;
+    font-size: 20px;
+    font-style: normal;
+    height: 350px;
+    text-align: left;
+    p {
+      width: 440px;
+      margin-left: 85px;
+      margin-top: 80px;
+    }
+    ul {
+      position: relative;
+      bottom: -50px;
+      height: 35px;
+      li {
+        margin: 0 26px;
+        .icons {
+          width: 25px;
+          height: 35px;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+        }
+      }
+    }
+    .model-link {
+      text-align: center;
+      position: relative;
+      bottom: -60px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  }
+}
+.category3 {
+  background-image: url(../img/zakat.jpg);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+  > .category-content-3 {
+    background-color: #ea8b55;
+    position: absolute;
+    margin-top: -28px;
+    color: #000000;
+    text-shadow: 1px 1px 2px #5a5a5a;
+    font-size: 20px;
+    font-style: normal;
+    height: 350px;
+    text-align: right;
+    p {
+      position: relative;
+      margin-top: 80px;
+      left: -45%;
+    }
+    ul {
+      position: relative;
+      bottom: -110px;
+      height: 35px;
+      li{
+        margin: 0 26px;
+        .icons {
+          width: 25px;
+          height: 35px;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+        }}}
+    .model-link {
+      text-align: center;
+      position: relative;
+      bottom: -60px;
+    }
+  }
   @media only screen and (min-width: 768px) {
   }
 }
@@ -640,5 +806,6 @@ img::-moz-selection {
 }
 
 body {
+
   -webkit-tap-highlight-color: @theme-primary;
 }

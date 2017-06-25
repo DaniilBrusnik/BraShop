@@ -30,7 +30,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #ea8b55;
+  text-decoration: none;
 }
 a img:hover,
 a img:focus {
@@ -380,12 +381,176 @@ li {
   text-shadow: 1px 1px 2px #5a5a5a;
   font-size: 20px;
   font-style: normal;
-  height: 104%;
+  height: 350px;
   text-align: left;
 }
 .category > .category-content p {
-  margin-left: 55px;
+  width: 440px;
+  margin-left: 85px;
   margin-top: 80px;
+}
+.category > .category-content ul {
+  position: relative;
+  bottom: -50px;
+  height: 35px;
+}
+.category > .category-content ul li {
+  margin: 0 26px;
+}
+.category > .category-content ul li .icons {
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.category > .category-content .model-link {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.category1 {
+  background-image: url(../img/OAIIEN.png);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+}
+.category1 > .category-content-1 {
+  background-color: #ea8b55;
+  position: absolute;
+  margin-top: -28px;
+  color: #000000;
+  text-shadow: 1px 1px 2px #5a5a5a;
+  font-size: 20px;
+  font-style: normal;
+  height: 350px;
+  text-align: right;
+}
+.category1 > .category-content-1 p {
+  position: relative;
+  margin-top: 80px;
+  left: -45%;
+}
+.category1 > .category-content-1 ul {
+  position: relative;
+  bottom: -110px;
+  height: 35px;
+}
+.category1 > .category-content-1 ul li {
+  margin: 0 26px;
+}
+.category1 > .category-content-1 ul li .icons {
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.category1 > .category-content-1 .model-link {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.category2 {
+  background-image: url(../img/OBDT.jpg);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+}
+.category2 > .category-content-2 {
+  background-color: #397979;
+  position: absolute;
+  margin-top: -28px;
+  color: #f7fffc;
+  text-shadow: 1px 1px 2px #5a5a5a;
+  font-size: 20px;
+  font-style: normal;
+  height: 350px;
+  text-align: left;
+}
+.category2 > .category-content-2 p {
+  width: 440px;
+  margin-left: 85px;
+  margin-top: 80px;
+}
+.category2 > .category-content-2 ul {
+  position: relative;
+  bottom: -50px;
+  height: 35px;
+}
+.category2 > .category-content-2 ul li {
+  margin: 0 26px;
+}
+.category2 > .category-content-2 ul li .icons {
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.category2 > .category-content-2 .model-link {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.category3 {
+  background-image: url(../img/zakat.jpg);
+  width: 100%;
+  margin-top: 40px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+}
+.category3 > .category-content-3 {
+  background-color: #ea8b55;
+  position: absolute;
+  margin-top: -28px;
+  color: #000000;
+  text-shadow: 1px 1px 2px #5a5a5a;
+  font-size: 20px;
+  font-style: normal;
+  height: 350px;
+  text-align: right;
+}
+.category3 > .category-content-3 p {
+  position: relative;
+  margin-top: 80px;
+  left: -45%;
+}
+.category3 > .category-content-3 ul {
+  position: relative;
+  bottom: -110px;
+  height: 35px;
+}
+.category3 > .category-content-3 ul li {
+  margin: 0 26px;
+}
+.category3 > .category-content-3 ul li .icons {
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.category3 > .category-content-3 .model-link {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
 }
 .carousel-inner {
   max-height: 460px;
